@@ -20,7 +20,7 @@ app.delete("/user",(req,res) =>{
     res.send("data delated successfully...!");
 })
 
-//This will match the http method api call
+//This will match  all the http method api call
 app.use("/test", (req,res) =>{
     res.send("hello from the server...!")
 
